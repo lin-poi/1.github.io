@@ -181,7 +181,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -191,7 +191,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -247,7 +247,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/04/14/java环境设置及eclipse安装/" itemprop="url">Unbenannt</a></h1>
+                <a class="post-title-link" href="/2018/04/14/java环境设置及eclipse安装/" itemprop="url">Untitled</a></h1>
         
 
         <div class="post-meta">
@@ -257,7 +257,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-14T15:26:13+08:00">
                 2018-04-14
@@ -299,7 +299,8 @@
       
         
           
-            <h1 id="java环境设置及eclipse安装"><a href="#java环境设置及eclipse安装" class="headerlink" title="java环境设置及eclipse安装"></a>java环境设置及eclipse安装</h1><p>​    嘛~作者花了好久终于搭好了环境，安好了eclipse，颇感不易啊。。。为了让小伙伴们不再和作者一样被各种文章绕来绕去，作者决定自己写一篇教程（PS：作者是win10 64位操作系统）。还有，请小伙伴们注意发表时间，作者被很多陈年老帖子搞得晕头转向，如果该文已过时，仅供参考。</p>
+            <p>java环境设置及eclipse安装</p>
+<p>​    嘛~作者花了好久终于搭好了环境，安好了eclipse，颇感不易啊。。。为了让小伙伴们不再和作者一样被各种文章绕来绕去，作者决定自己写一篇教程（PS：作者是win10 64位操作系统）。还有，请小伙伴们注意发表时间，作者被很多陈年老帖子搞得晕头转向，如果该文已过时，仅供参考。</p>
 <p>​    看了那么多教程想必大家见的最多的两组词：jdk和jre，java和javac。作者先引用两篇文章加以区分，当然如果你急于安装请跳过直接看正文。</p>
 <p><a href="https://zhidao.baidu.com/question/55906254.html" target="_blank" rel="noopener"><strong>jdk与jre</strong></a></p>
 <p><a href="https://www.imooc.com/qadetail/198466" target="_blank" rel="noopener"><strong>java与javac</strong></a></p>
@@ -307,36 +308,36 @@
 <p><img src="/img/QQ截图20180414161629.png" alt=""></p>
 <p>下载好后安装，记住安装路径</p>
 <p>打开此电脑属性</p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414162258.png" alt=""></p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414162413.png" alt=""></p>
+<p><img src="/img/QQ截图20180414162258.png" alt=""></p>
+<p><img src="/img/QQ截图20180414162413.png" alt=""></p>
 <p>打开环境变量，在系统变量中</p>
 <p>1.添加JAVA_HOME:路径为你刚才安装jdk的路径</p>
 <p>2.添加CLASSPATH路径为.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar （PS：一定记得路径前面有个.）</p>
 <p>3.在PATH中添加 jdk路径\bin 并置顶（PS：win10这里不能用相对路径，必须用绝对路径）</p>
 <p>最后记得点确定</p>
-<p>右键主菜单<img src="E:\blog\blog\source\img\QQ截图20180414164405.png" alt=""></p>
+<p>右键主菜单<img src="/img/QQ截图20180414164405.png" alt=""></p>
 <p>打开windows powershell（管理员）</p>
-<p><img src="E:\blog\blog\source\img\QQ图片20180414164230.jpg" alt=""></p>
+<p><img src="/img/QQ图片20180414164230.jpg" alt=""></p>
 <p>输入java 显示如图则为安装成功</p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414165030.png" alt=""></p>
+<p><img src="/img/QQ截图20180414165030.png" alt=""></p>
 <p>继续输入javac 显示如图则为安装成功</p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414170653.png" alt=""></p>
+<p><img src="/img/QQ截图20180414170653.png" alt=""></p>
 <p>最后输入java -version（PS：java与-之间有空格）显示如图则为安装成功</p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414180711.png" alt=""></p>
+<p><img src="/img/QQ截图20180414180711.png" alt=""></p>
 <p>至此，java运行环境搭建完成。</p>
 <h2 id="eclipse安装"><a href="#eclipse安装" class="headerlink" title="eclipse安装"></a>eclipse安装</h2><p>​    首先<a href="https://www.eclipse.org/downloads/" target="_blank" rel="noopener"><strong>下载</strong></a>eclipse</p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414171747.png" alt=""></p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414171928.png" alt=""></p>
+<p><img src="/img/QQ截图20180414171747.png" alt=""></p>
+<p><img src="/img/QQ截图20180414171928.png" alt=""></p>
 <p>注意选择32位或者64位，一定要与所下载的jdk保持一致。</p>
 <p>安装后打开，第一次要设置存储路径并记得点对勾（意为记住我的选择）</p>
 <p> 点击左上角file，new，Java project并输入项目名称</p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414233604.png" alt=""></p>
+<p><img src="/img/QQ截图20180414233604.png" alt=""></p>
 <p>然后继续file，new，class</p>
 <p>1.最上方选择所创建项目下的src</p>
 <p>2.填写程序名称</p>
 <p>3.如果是主程序选择第一项</p>
-<p><img src="E:\blog\blog\source\img\aa251d4f78f0f736af23b6f80055b319eac4132e.jpg" alt=""></p>
-<p><img src="E:\blog\blog\source\img\QQ截图20180414174016.png" alt=""></p>
+<p><img src="/img/aa251d4f78f0f736af23b6f80055b319eac4132e.jpg" alt=""></p>
+<p><img src="\img\QQ截图20180414174016.png" alt=""></p>
 <p>然后开始一起学习java吧！</p>
 <h2 id="常见问题汇总"><a href="#常见问题汇总" class="headerlink" title="常见问题汇总"></a>常见问题汇总</h2><p>这里仅就作者自己遇见过的问题作一些解答</p>
 <p><strong>1.环境变量配置完后在Windows powershell界面中java运行成功而javac运行失败</strong></p>
@@ -344,7 +345,7 @@
 <p><strong>2.安装eclipse后打开总是链接到一个网址</strong></p>
 <p>eclipse下载错误（你下的那个估计是四十几M的）点击DOWNLOAD 64 bit下方的DOWNLOAD  packages然后在里面下载eclipse ide for Java developers注意对应操作系统</p>
 <p><strong>3.JDK配置好后，打开eclipse后显示</strong></p>
-<p><img src="E:\blog\blog\source\img\QQ图片20180414175753.png" alt=""></p>
+<p><img src="\img\QQ图片20180414175753.png" alt=""></p>
 <p>这是JDK与eclipse操作位数不匹配导致的，在windows powershell中输入Java -version查看操作位数，若显示64bit则为64位，不显示则为32位，同时注意在此电脑的属性中查看自己的操作位数。</p>
 
           
@@ -423,7 +424,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-21T22:19:53+08:00">
                 2018-03-21
@@ -542,7 +543,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-21T21:51:15+08:00">
                 2018-03-21
@@ -675,7 +676,7 @@
                 <a href="/archives/">
               
                   <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">Artikel</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -725,7 +726,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
